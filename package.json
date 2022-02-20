@@ -1,0 +1,12 @@
+{
+  "name": "alias-hq-bug-parent-dir",
+  "author": "Chris Santamaria <chris@santamaria.me>",
+  "devDependencies": {
+    "alias-hq": "^5.3.2",
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:app": "yarn --cwd app test"
+  }
+}
